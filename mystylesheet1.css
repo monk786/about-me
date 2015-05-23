@@ -1,6 +1,6 @@
 .metahead {
-    padding: 8em 0;
-    background-image: url("http://vignette3.wikia.nocookie.net/one-piece-romania/images/f/fb/22751_one_piece_luffy_one_piece.jpg");
+    padding: 0 0 14.5rem;
+    background-image: url("http://i.imgur.com/DRu99br.jpg"  );
     
     background-size: cover;
     background-position: left center;
@@ -10,6 +10,42 @@
     border-radius: 2px
         
  
+}
+
+
+@media only screen and (max-width: 500px) {
+    .metahead {
+        padding: 3em 0;
+    }
+    .metahead-heading {
+        font-size: 3em;
+    }
+}
+
+@media only screen and (max-width: 500px){
+	.content-footer{
+		font-size: 14px;
+	}
+
+	.foothead{
+		text-align: center;
+	}
+}
+
+.social{
+
+	margin-left:2rem;
+}
+.foothead{
+
+	text-align: center;
+}
+.headers{
+     
+     color:white;
+     font-family: cursive;
+	display: inline-block;
+	padding: 0 1rem;
 }
 .metahead-intro{
 	margin-bottom: 0.1em;
@@ -44,12 +80,23 @@ body{
 
 	background-color: rgba(123, 16, 3, 1);
 }
-.section1,.section2,.section3{
+.section1,.section2,.section3 {
 	padding: .1em 0;
 	background-color: rgba(123, 16, 3, 1);
 	max-width: 38em;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+
+
+}
+.projects{
+	padding: .1em 0;
+	background-color: rgba(123, 16, 3, 1);
+	max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 
 
 }
@@ -102,4 +149,11 @@ body{
 body{
 	font-family: cursive;
 
+}
+
+
+img{
+
+	border-radius:50px;
+	padding:.5rem;
 }
