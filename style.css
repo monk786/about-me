@@ -1,0 +1,117 @@
+body{
+	margin:0;
+}
+nav{
+	background-color: #1A0F0A;
+	height: 4.5rem;
+}
+#dp{
+	display: inline-block;
+	border-radius: 50px;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top:8px;
+	margin-left: 15rem;
+}
+
+.navul  , .navli , .navdiv, .home{
+	display: inline-block;
+	margin: 0;
+	
+
+}
+
+nav ul li:hover{
+	background-color: #ff6200;
+	border-radius: 6px;
+	cursor: pointer;
+}
+.navli, .home{
+	padding: 13px;
+
+}
+
+
+.home{
+	background-color: #ff6200;
+	border-radius: 6px;
+}
+
+.navul{
+	position: absolute;
+  	top: 22px;
+  	right: 10rem;
+
+}
+
+
+
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-family: Arial;
+
+}
+
+.WB{
+	
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #dddccf;
+}
+
+h1 , h2{
+	display: inline-block;
+	font-family: cursive;
+	color:#535353;
+	margin: 0;
+	padding: 10px;
+}
+.namediv , .namediv2{
+	
+	text-align: center;
+}
+.namediv{
+	  display: inline-block;
+  position: absolute;
+  top: 15rem;
+  left: 26rem;
+}
+
+.namediv2{
+	  display: inline-block;
+  position: absolute;
+  top: 30rem;
+  left: 26rem;
+
+}
+
+.travel{
+	background-color: #C7C6BA;
+}
+
+.img{
+	margin-left: 40rem;
+	display: inline-block;
+}
+
+
+.maincontent:after {
+    background: linear-gradient(-45deg, #black 16px, transparent 0), linear-gradient(45deg, black 16px, transparent 0);
+    background-position: left-bottom;
+    background-repeat: repeat-x;
+    background-size: 32px 32px;
+    content: " ";
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 32px;
+}
+
+.proj{
+	border: solid 10 10 10 20 white;
+}
