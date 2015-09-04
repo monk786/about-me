@@ -1,0 +1,63 @@
+body{
+	margin:0;
+}
+nav{
+	background-color: #1A0F0A;
+	height: 4.5rem;
+}
+	
+	
+#dp{
+	display: inline-block;
+	border-radius: 50px;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top:8px;
+	margin-left: 10rem;
+}
+
+.navul  , .navli , .navdiv, .projects{
+	display: inline-block;
+	margin: 0;
+	
+
+}
+
+nav ul li a:active{
+	background-color: #ff6200;
+	border-radius: 6px;
+}
+
+nav ul li:hover{
+	background-color: #ff6200;
+	border-radius: 6px;
+	cursor: pointer;
+}
+.navli, .projects{
+	padding: 13px;
+
+}
+
+
+.projects{
+	background-color: #ff6200;
+	border-radius: 6px;
+}
+
+.navul{
+	position: absolute;
+  	top: 22px;
+  	right: 10rem;
+
+}
+
+
+
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-family: Arial;
+
+}

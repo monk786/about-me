@@ -17,7 +17,7 @@ nav{
 	margin-left: 10rem;
 }
 
-.navul  , .navli , .navdiv, .home{
+.navul  , .navli , .navdiv, .actpg{
 	display: inline-block;
 	margin: 0;
 	
@@ -29,13 +29,13 @@ nav ul li:hover{
 	border-radius: 6px;
 	cursor: pointer;
 }
-.navli, .home{
+.navli, .actpg{
 	padding: 13px;
 
 }
 
 
-.home{
+.actpg{
 	background-color: #ff6200;
 	border-radius: 6px;
 }
@@ -202,6 +202,15 @@ ul.polaroids li:nth-child(3n) a {
     );
 
 }
+
+
+
+
+
+
+
+
+
 
 .footer{
 	max-width: 600px;

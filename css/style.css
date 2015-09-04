@@ -5,6 +5,8 @@ nav{
 	background-color: #1A0F0A;
 	height: 4.5rem;
 }
+	
+	
 #dp{
 	display: inline-block;
 	border-radius: 50px;
@@ -12,23 +14,28 @@ nav{
 	height: 100px;
 	position: absolute;
 	top:8px;
-	margin-left: 15rem;
+	margin-left: 10rem;
 }
 
-.navul  , .navli , .navdiv, .home{
+.navul  , .navli , .navdiv, .actpg{
 	display: inline-block;
 	margin: 0;
 	
 
 }
 
-.navli, .home{
+nav ul li:hover{
+	background-color: #ff6200;
+	border-radius: 6px;
+	cursor: pointer;
+}
+.navli, .actpg{
 	padding: 13px;
 
 }
 
 
-.home{
+.actpg{
 	background-color: #ff6200;
 	border-radius: 6px;
 }
@@ -59,13 +66,14 @@ a{
 
 h1 , h2{
 	display: inline-block;
-	font-family: cursive;
+	font-family:'Nothing You Could Do', cursive;
 	color:#535353;
 	margin: 0;
 	padding: 10px;
 }
-h1{
-	margin-left: 3rem;
+.namediv , .namediv2{
+	
+	text-align: center;
 }
 .namediv{
 	  display: inline-block;
@@ -85,15 +93,18 @@ h1{
 .travel{
 	background-color: #C7C6BA;
 }
+.img2{
+	margin-top: 20px;
+}
 
-.img{
+.img, .img2{
 	margin-left: 40rem;
 	display: inline-block;
 }
 
 
 .maincontent:after {
-    background: linear-gradient(-45deg, #black 16px, transparent 0), linear-gradient(45deg, black 16px, transparent 0);
+    background: linear-gradient(-495g, #black 16px, transparent 0), linear-gradient(45deg, black 16px, transparent 0);
     background-position: left-bottom;
     background-repeat: repeat-x;
     background-size: 32px 32px;
@@ -104,4 +115,69 @@ h1{
     left: 0px;
     width: 100%;
     height: 32px;
+}
+
+.WB{
+  background:
+    linear-gradient(
+      45deg, transparent 33.333%,
+      #E2E2E2 33.333%, #E2E2E2 66.667%,
+      transparent 66.667%
+    ),
+    linear-gradient(
+      -45deg, transparent 33.333%,
+      #E2E2E2 33.333%, #E2E2E2 66.667%,
+      transparent 66.667%
+    );
+}
+
+.WB2{
+
+	background:
+    linear-gradient(
+      47deg,transparent 33.333%,
+      #E2E2E2 33.333%, #E2E2E2 66.667%,
+      transparent 66.667%
+    ),
+    linear-gradient(
+      -47deg,transparent 33.333%,
+      #E2E2E2 33.333%, #E2E2E2 66.667%,
+      transparent 66.667%
+    );
+
+}
+
+
+
+
+
+
+
+
+
+
+.footer{
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.footer ul li a img{
+	width: 120px;
+	height: 90px;
+}
+.footer ul{
+	list-style: none;
+	margin-top: 0;
+
+}
+.footer ul li{
+	display: inline-block;
+	padding: 20px;
+}
+
+.footer h2{
+
+	margin-left: 83px;
 }

@@ -1,0 +1,125 @@
+.projbdy{
+	background-image: url("../img/project-rack2.jpg");
+	background-size: cover;
+	background-repeat: none;
+}
+
+
+.projects{
+padding:20px 10px;
+/*setting a width and adding overflow:hidden will clear the floats we're going to apply to figure*/
+max-width: 100%
+	margin-left:auto;
+	margin-right: auto;
+overflow:hidden;
+margin-top:120px;
+}
+
+ul.polaroids {
+	list-style: none;
+	max-width: 80%;
+	margin-left:auto;
+	margin-right: auto;	
+	margin-top:50px;
+	
+}
+
+ul.polaroids li{
+	display: inline-block;
+}
+
+ul.polaroids a:after{
+	content:attr(title);
+	color: black;
+	text-align:center;
+	font-family:'Nothing You Could Do', cursive;
+	display: block;
+}
+
+ul.polaroids li{
+	padding: 16px 16px 20px 16px;
+	background-color: white;
+	margin:50px;
+}
+
+ul.polaroids li{
+	-webkit-transform:rotate(5deg);
+	-moz-transform:rotate(5deg);
+}
+
+ul.polaroids li:nth-child(even){
+	-webkit-transform:rotate(-5deg);
+	-moz-transform:rotate(-5deg);
+}
+
+ul.polaroids li:nth-child(3n) a {
+  -webkit-transform: none;
+  -moz-transform: none;
+  position: relative;
+  top: -5px;
+}
+ 
+ ul.polaroids li:nth-child(5n) a {
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  position: relative;
+  right: 5px;
+}
+
+
+
+ul.polaroids li:before{
+	content:"";
+	display: block;
+	position: absolute;
+	left: -18px;
+    top: -1px;
+    width: 75px;
+    height: 25px;
+    background-color: rgba(222,220,198,0.7);
+    -webkit-transform: rotate(-27deg);
+	-moz-transform:rotate(-27deg);
+	-0-transform:rotate(-27deg);
+	-ms-transform:rotate(-27deg);
+}
+
+ul.polaroids li:after{
+	content:"";
+	display: block;
+	position: absolute;
+	left: 165px;
+    top: -1px;
+    width: 93px;
+    height: 25px;
+    background-color: rgba(222,220,198,0.7);
+    -webkit-transform: rotate(27deg);
+	-moz-transform:rotate(27deg);
+	-0-transform:rotate(27deg);
+	-ms-transform:rotate(27deg);
+}
+
+ul.polaroids li:hover {
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  position: relative;
+  z-index: 5;
+}
+
+
+ul.polaroids li {
+  -webkit-transition: -webkit-transform .15s linear;
+  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+  -moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+}
+ 
+/* On hover, darken the shadows a bit */
+ul.polaroids li {
+  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.5);
+  -moz-box-shadow: 0 3px 6px rgba(0,0,0,.5);
+}
+
+ 
+ 
+.footer h2{
+	color: white;
+}
